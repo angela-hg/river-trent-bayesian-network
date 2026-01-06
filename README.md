@@ -46,3 +46,59 @@ The project follows a modular, reproducible pipeline designed to mirror real-wor
 
 Raw monitoring data are progressively transformed into interpretable network-based insights through the following stages:
 
+Raw DEFRA Monitoring Data
+
+│
+
+▼
+
+Data Ingestion & Cleaning
+
+(removal of invalid sites, coordinate harmonisation)
+
+│
+
+▼
+
+Temporal Aggregation
+
+(monthly averaging across monitoring locations)
+
+│
+
+▼
+
+Discretisation
+
+(entropy-preserving categorical transformation)
+
+│
+
+▼
+
+River-Constrained Network Construction
+
+(directed edges respecting downstream flow)
+
+│
+
+▼
+
+Bayesian Network Fitting
+
+(probabilistic dependency estimation)
+
+│
+
+▼
+
+Node Influence Analysis
+
+
+Mutual Information (global influence)
+
+Markov Blanket size (local importance)
+│
+▼
+Spatial Mapping & Visualisation
+(identification of high-impact monitoring locations)
